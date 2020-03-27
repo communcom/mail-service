@@ -1,0 +1,33 @@
+{
+  "name": "mail-service",
+  "version": "1.0.0",
+  "description": "Commun mail service",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "commun.com",
+  "dependencies": {
+    "cyberway-core-service": "^3.59.2",
+    "dotenv": "^8.1.0",
+    "mailgun-js": "^0.22.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 4,
+    "semi": true,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "overrides": [
+      {
+        "files": [
+          "*.yml",
+          "*.json"
+        ],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
+}
